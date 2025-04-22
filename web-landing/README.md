@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# 🚀 ERP Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page responsive untuk aplikasi ERP, dirancang khusus untuk mendemonstrasikan fitur-fitur TIER produk ERP (Basic, Business, Entrepreneur) dalam proses rekrutmen Frontend Developer.
 
-Currently, two official plugins are available:
+## ✨ Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Halaman landing responsive
+- ✅ Animasi scroll reveal (AOS)
+- ✅ Navigasi antar halaman (React Router)
+- ✅ Komponen modular & reusable
+- ✅ Ilustrasi modern dari [unDraw](https://undraw.co/)
+- ✅ Halaman Login siap pakai
+- ✅ Disiapkan untuk integrasi SASS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧾 Teknologi yang Digunakan
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+| Teknologi                        | Keterangan                                                                                                                                            |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **React.js (Vite + TypeScript)** | Digunakan sebagai framework utama frontend karena component-based, modern, dan sangat populer. Vite dipilih karena build tool yang cepat dan efisien. |
+| **Tailwind CSS**                 | Utility-first CSS framework yang mempercepat proses styling tanpa harus menulis banyak CSS manual.                                                    |
+| **SASS (SCSS)** _(optional)_     | Disiapkan untuk menunjukkan pemahaman dalam CSS modular dan fitur seperti nesting, variabel, dan mixin.                                               |
+| **React Router DOM**             | Untuk mengatur navigasi antar halaman, seperti Home dan Login.                                                                                        |
+| **AOS (Animate On Scroll)**      | Untuk memberikan animasi scroll pada komponen sehingga tampak lebih interaktif.                                                                       |
+| **unDraw Illustrations**         | Ilustrasi SVG bebas hak cipta untuk mempercantik tampilan.                                                                                            |
+| **TypeScript**                   | Superset dari JavaScript yang meningkatkan maintainability, kejelasan struktur kode, dan deteksi bug.                                                 |
+| **Vite**                         | Build tool modern pengganti CRA (Create React App). Lebih cepat dan efisien.                                                                          |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🏗️ Struktur Proyek
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+src/
+├── assets/  
+├── components/
+│ └── layout/
+│ ├── Navbar.tsx
+│ └── sections/
+│ ├── Hero.tsx
+│ ├── About.tsx
+│ ├── Pricing.tsx
+│ └── Contact.tsx
+│ └── Footer.tsx
+│ └── ui/
+│ ├── TierCard.tsx
+├── pages/
+│ ├── Home.tsx
+│ └── Login.tsx
+├── type/
+├── App.tsx
+├── main.tsx
+├── index.css
+tailwind.config.ts
