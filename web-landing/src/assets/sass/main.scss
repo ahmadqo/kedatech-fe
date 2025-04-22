@@ -1,0 +1,13 @@
+@use "./variables" as *;
+// @import "./mixins";
+
+.bg-gradient-top-bottom {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(59, 130, 246, 0.4),
+      transparent 40%
+    ),
+    linear-gradient(to top, rgba(59, 130, 246, 0.4), transparent 40%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
