@@ -28,27 +28,3 @@ Landing page responsive untuk aplikasi ERP, dirancang khusus untuk mendemonstras
 | **Vite**                         | Build tool modern pengganti CRA (Create React App). Lebih cepat dan efisien.                                                                          |
 
 ---
-
-## 🏗️ Struktur Proyek
-
-src/
-├── assets/  
-├── components/
-│ └── layout/
-│ ├── Navbar.tsx
-│ └── sections/
-│ ├── Hero.tsx
-│ ├── About.tsx
-│ ├── Pricing.tsx
-│ └── Contact.tsx
-│ └── Footer.tsx
-│ └── ui/
-│ ├── TierCard.tsx
-├── pages/
-│ ├── Home.tsx
-│ └── Login.tsx
-├── type/
-├── App.tsx
-├── main.tsx
-├── index.css
-tailwind.config.ts
