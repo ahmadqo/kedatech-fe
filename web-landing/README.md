@@ -28,3 +28,16 @@ Landing page responsive untuk aplikasi ERP, dirancang khusus untuk mendemonstras
 | **Vite**                         | Build tool modern pengganti CRA (Create React App). Lebih cepat dan efisien.                                                                          |
 
 ---
+
+## ▶️ Menjalankan Project
+
+```bash
+# Pastikan Anda menggunakan Node.js versi 20 atau lebih baru
+node -v
+
+# Jika versi Node.js Anda kurang dari 20, perbarui terlebih dahulu
+
+yarn install
+yarn dev
+
+```
