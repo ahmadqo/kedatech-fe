@@ -8,8 +8,8 @@ Dalam Test Functional Code ini, setiap fungsi ditulis ke dalam file terpisah unt
   Berisi semua fungsi utama yang ditulis menggunakan TypeScript, beserta file unit test-nya menggunakan Jest.
 
   - Contoh:
-    - `sortDesc.ts` - fungsi untuk mengurutkan angka secara manual
-    - `maxSubarraySum.ts` - fungsi mencari jumlah maksimum dari subarray
+    - `sortDescending.ts` - fungsi untuk mengurutkan angka secara manual
+    - `maxSubArraySum.ts` - fungsi mencari jumlah maksimum dari subarray
     - `nestedEvenSum.ts` - fungsi menjumlahkan bilangan genap dalam nested object
     - `*.test.ts` - file untuk unit test masing-masing fungsi
 
