@@ -1,5 +1,8 @@
 @use "./variables" as *;
-// @import "./mixins";
+
+body {
+  font-family: var(--font-sans) !important;
+}
 
 .bg-gradient-top-bottom {
   background-image: linear-gradient(

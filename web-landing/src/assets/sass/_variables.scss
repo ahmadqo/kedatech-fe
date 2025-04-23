@@ -1,5 +1,8 @@
 $color-primary: #4f46e5;
 $color-secondary: #8b5cf6;
 $glass-bg: rgba(255, 255, 255, 0.08);
-
 $gradient-tier: linear-gradient(to right, $color-primary, $color-secondary);
+
+:root {
+  --font-sans: "Roboto", sans-serif;
+}
