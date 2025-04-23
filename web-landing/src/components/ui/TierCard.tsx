@@ -27,8 +27,14 @@ export default function TierCard(props: { data: TierCardProps }) {
         )}
         <p className="text-2xl font-bold text-blue-600 mb-10">{price}</p>
         <ul className="text-gray-600 space-y-2 text-left">
-          {features.map((feat, i) => (
+          {/* {features.map((feat, i) => (
             <li key={i}>✔ {feat}</li>
+          ))} */}
+          {features.map((feat, i) => (
+            <li key={i} className="flex gap-2">
+              <span>✔ </span>
+              <span>{feat}</span>
+            </li>
           ))}
         </ul>
       </div>

@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
           <a
             href="#pricing"
-            className="inline-block bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100"
+            className="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full font-bold shadow-md hover:bg-gray-100"
           >
             Lihat Paket
           </a>

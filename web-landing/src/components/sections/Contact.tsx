@@ -31,6 +31,7 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Nama Lengkap"
+                required
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none"
               />
               <svg
@@ -52,6 +53,7 @@ export default function Contact() {
               <input
                 type="email"
                 placeholder="Alamat Email"
+                required
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none"
               />
               <svg
@@ -72,6 +74,7 @@ export default function Contact() {
             <div className="relative">
               <textarea
                 rows={4}
+                required
                 placeholder="Tulis pesan Anda di sini..."
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none"
               />
